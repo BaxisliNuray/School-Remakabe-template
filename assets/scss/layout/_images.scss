@@ -1,0 +1,22 @@
+@import"../../scss/base/reset";
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+
+#images {
+    .container {
+        .row {
+            padding: 15% 0;
+            justify-content: space-between;
+
+            img {
+                height: 33px;
+                width: 102px;
+                left: 0.01px;
+                top: 0.04px;
+                border-radius: 0px;
+                
+
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+@import"../../scss/base/reset";
+
+
+#subscribe {
+margin: 10% 0;
+    .subscribe-content {
+        text-align: center;
+        margin: 15%;
+        padding-bottom: 5%;
+
+        h6 {
+
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $main-color;
+            padding-bottom: 3%;
+
+        }
+
+        h3 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            padding-bottom: 3%;
+
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: $text-color;
+            letter-spacing: 0.2px;
+            padding-bottom: 5%;
+
+
+        }
+
+        .row {
+            padding-top: 7%;
+            position: relative;
+
+            form {
+               
+                input {
+                    height: 58px;
+                    width: 688px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    background-color: $form-color;
+                    border-radius: 5px;
+                    font-size: 20px;
+                border: 1px solid $form-color;
+                    padding-left: 3%;
+                }
+
+                button {
+                    height: 58px;
+                    width: 117px;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    border-radius: 5px;
+                    border: 1px solid $main-color;
+                    background-color: $main-color;
+                    color: $light-color;
+
+                }
+            }
+
+
+        }
+    }
+}

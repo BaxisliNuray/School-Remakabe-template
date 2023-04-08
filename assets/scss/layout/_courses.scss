@@ -1,0 +1,54 @@
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+@import"../../scss/base/reset";
+
+#courses {
+    margin: 10% 0;
+
+    img {
+        padding-right: 15%;
+        height: 484px;
+        width: 414px;
+        background-size: cover;
+        left: 15px;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .courses-content {
+        padding-left: 10%;
+        margin-top: 10%;
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            padding: 5% 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+
+       
+        button {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            margin-right: 81%;
+            margin-top: 5%;
+            border: none;
+            background-color: transparent;
+            color: $main-color;
+            white-space: nowrap;
+            
+        }
+       }
+    }

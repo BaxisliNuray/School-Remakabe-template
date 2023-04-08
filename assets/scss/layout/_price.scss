@@ -1,0 +1,149 @@
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+@import"../../scss/base/reset";
+
+#price {
+   
+
+    .price-content {
+        justify-content: start;
+        align-items: start;
+        padding-bottom: 5%;
+
+        h6 {
+
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            color: $main-color;
+            padding-bottom: 3%;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            padding-bottom: 3%;
+
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: $text-color;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+
+    }
+
+    .row {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .price-card {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            height: 1145px;
+            width: 90%;
+            align-items: center;
+            text-align: left;
+            margin: 25% 0 ;
+            padding: 10px 20px 0px 20px;
+           
+
+            .fa-heart {
+                font-size: 30px;
+                padding: 10px;
+                margin: 14% 0;
+                background-color: $main-color;
+                border-radius: 50%;
+                border: 1px solid $main-color;
+                color: white;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0.1px;
+                margin-bottom: 7%;
+
+            }
+
+            h6 {
+                font-size: 15px;
+                font-weight: 500;
+                color: $text-color;
+                margin-bottom: 13%;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+
+            }
+
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color: $main-color;
+
+            }
+
+            h5 {
+
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px;
+                
+                letter-spacing: 0.2px;
+                color: #8EC2F2;
+
+
+            }
+
+            button {
+
+                margin-left: 5%;
+                margin-top: 5%;
+                border: none;
+                border-radius: 5px;
+                background-color: $main-color;
+                color: white;
+                padding: 15px 50px 15px 50px;
+
+            }
+
+            .check {
+                margin-top: 10%;
+
+                p {
+
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 5% 0;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+
+                    .green {
+                        color: $main-color;
+                        font-size: 20px;
+                    }
+
+                    .gray {
+                        color: $muted-color;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

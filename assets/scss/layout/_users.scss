@@ -1,0 +1,83 @@
+#users {
+    margin-top: 15%;
+
+    .user-content {
+        justify-content: start;
+        align-items: start;
+        padding-bottom: 5%;
+
+        h6 {
+
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            color: $main-color;
+            padding-bottom: 3%;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            padding-bottom: 3%;
+
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: $text-color;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+    }
+
+    .row {
+        display: flex;
+
+        img {
+            border-radius: 50%;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            padding: 7% 0;
+        }
+
+        .fa-star {
+            color: $star-color;
+            padding-bottom: 5%;
+        }
+
+        h5 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            text-align: center;
+        }
+
+        h6 {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            text-align: center;
+
+
+        }
+
+
+    }
+}

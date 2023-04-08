@@ -1,0 +1,67 @@
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+@import"../../scss/base/reset";
+
+
+footer {
+    .top-footer {
+        .content {
+            text-align: left;
+
+            h5 {
+                padding: 7% 0;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: $text-color;
+                padding: 3% 0;
+
+            }
+
+            p {
+                .fa-solid {
+                    color: $main-color;
+                    font-size: 20px;
+                    padding-right: 1%;
+                }
+            }
+
+        }
+    }
+
+    .bottom-footer {
+        .row {
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+align-items: center;
+            .footer-text {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+
+            }
+            ul{
+                display: flex;
+                padding-right: 10%;
+                
+                li{
+                    padding-right: 7%;
+                    a{
+                        color: $main-color;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

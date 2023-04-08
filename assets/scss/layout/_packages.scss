@@ -1,0 +1,88 @@
+@import "../../scss/abstract/variable";
+@import"../../scss/layout/grid";
+@import"../../scss/base/reset";
+
+#packages {
+    .content {
+        justify-content: start;
+        align-items: start;
+        padding-bottom: 5%;
+
+        h6 {
+
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            color: $main-color;
+            padding-bottom: 3%;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            padding-bottom: 3%;
+
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: $text-color;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+
+    }
+
+    .row {
+        display: flex;
+
+        .card {
+            width: 85%;
+            height: 280px;
+            margin-bottom: 7%;
+            padding: 35px 40px;
+            border: 1px solid none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            text-align: left;
+
+            i {
+                font-size: 35px;
+                padding-bottom: 20%;
+
+                h5 {
+
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    text-align: left;
+                    
+                    
+                }
+
+            }
+        }
+
+        .colorful-card {
+            color: $light-color ;
+            background-color: $main-color ;
+        }
+    }
+
+}
